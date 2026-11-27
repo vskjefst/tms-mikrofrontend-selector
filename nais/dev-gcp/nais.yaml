@@ -43,8 +43,6 @@ spec:
           namespace: meldekort
         - application: sosialhjelp-soknad-api
           namespace: teamdigisos
-        - application: dp-meldekortregister
-          namespace: teamdagpenger
         - application: dp-meldekort
           namespace: teamdagpenger
         - application: logging
