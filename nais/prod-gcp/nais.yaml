@@ -42,7 +42,7 @@ spec:
           namespace: meldekort
         - application: sosialhjelp-soknad-api
           namespace: teamdigisos
-        - application: dp-meldekortregister
+        - application: dp-meldekort
           namespace: teamdagpenger
         - application: logging
           namespace: nais-system
@@ -99,9 +99,9 @@ spec:
     - name: MELDEKORT_API_CLIENT_ID
       value: prod-gcp:meldekort:meldekort-api
     - name: DP_MELDEKORT_URL
-      value: http://dp-meldekortregister.teamdagpenger
+      value: http://dp-meldekort.teamdagpenger
     - name: DP_MELDEKORT_CLIENT_ID
-      value: prod-gcp:teamdagpenger:dp-meldekortregister
+      value: prod-gcp:teamdagpenger:dp-meldekort
     - name: PDL_API_URL
       value: "https://pdl-api.prod-fss-pub.nais.io"
     - name: PDL_API_CLIENT_ID
